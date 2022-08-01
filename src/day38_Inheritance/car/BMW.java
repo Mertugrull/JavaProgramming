@@ -1,6 +1,6 @@
-package day38_Inheritance;
+package day38_Inheritance.car;
 
-public class BMW extends Car{
+public class BMW extends Car {
     public BMW(String brand, String model, int year, double price, String color, double miles) {
         super(brand, model, year, price, color, miles);
     }

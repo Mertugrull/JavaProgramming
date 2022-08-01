@@ -1,6 +1,8 @@
-package day38_Inheritance;
+package day38_Inheritance.car;
 
-public class Toyota extends Car{
+import day38_Inheritance.car.Car;
+
+public class Toyota extends Car {
     public Toyota(String brand, String model, int year, double price, String color, double miles) {
         super(brand, model, year, price, color, miles);
     }
