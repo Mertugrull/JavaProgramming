@@ -11,4 +11,11 @@ public class Tesla extends Car {
     public void autoPilot(){
         System.out.println(getBrand()+" " +getModel()+" has auto pilot");
     }
+
+    public void start(){
+        System.out.println("voice control to start " + getBrand());
+    }
+
+
+
 }

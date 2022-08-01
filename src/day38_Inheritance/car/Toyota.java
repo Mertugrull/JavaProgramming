@@ -10,4 +10,8 @@ public class Toyota extends Car {
     public void reliable(){
         System.out.println(getBrand()+" "+getModel()+" is reliable");
     }
+
+    public void start(){
+        System.out.println("You need key to start engine");
+    }
 }
