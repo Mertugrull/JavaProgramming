@@ -11,5 +11,9 @@ public class ParkingLot {
 
         System.out.println(toyota);
 
+        toyota.start();
+        bmw.start();
+        tesla.start();
+
     }
 }
